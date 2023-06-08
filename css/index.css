@@ -134,13 +134,13 @@ main img {
 
 .social-button.twitch {
     background: linear-gradient(
-            135deg,
-            #405de6,
-            #5851db,
-            #833ab4,
-            #c13584,
-            #e1306c,
-            #fd1d1d
+        135deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
     );
 }
 
@@ -151,13 +151,13 @@ main img {
     left: 50%;
     transform: translateX(-50%);
     background: linear-gradient(
-            135deg,
-            #405de6,
-            #5851db,
-            #833ab4,
-            #c13584,
-            #e1306c,
-            #fd1d1d
+        135deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
     );
     color: #fff;
     padding: 5px 10px;
@@ -167,17 +167,31 @@ main img {
     margin-top: 5px;
 }
 
-.social-button.linkedin {
-    background-color: #0077b5;
+.social-button.instagram {
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
 }
 
-.social-button.linkedin:hover:before {
-    content: "Linkedin";
+.social-button.instagram:hover:before {
+    content: "Instagram";
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #0077b5;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -186,18 +200,21 @@ main img {
     margin-top: 5px;
 }
 
-.homepage-button {
-    text-decoration: none;
-    background: none;
-    color: black;
-    border-radius: 2rem;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 0.5rem;
-    background-color: white;
-    border: none;
-    margin-bottom: 20px;
+.social-button.discord {
+    background: linear-gradient(#5865f2, #404eed);
 }
 
-
-
+.social-button.discord:hover:before {
+    content: "Discord";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(#5865f2, #404eed);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
