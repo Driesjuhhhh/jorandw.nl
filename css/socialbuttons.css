@@ -233,3 +233,22 @@
     white-space: nowrap;
     margin-top: 5px;
 }
+
+.social-button.onlyfans {
+    background: white;
+}
+
+.social-button.onlyfans:hover:before {
+    content: "Onlyfans";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
