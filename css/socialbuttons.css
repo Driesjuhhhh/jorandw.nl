@@ -1,0 +1,235 @@
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button.socials {
+    background-color: cornflowerblue;
+}
+
+.social-button.socials:hover:before {
+    content: "Mijn Socials";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button:hover {
+    transform: scale(1.2);
+}
+
+.social-button.github {
+    background-color: #3b5998;
+}
+
+.social-button.github:hover:before {
+    content: "Github";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3b5998;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.spotify {
+    background-color: #1ed760;
+}
+
+.social-button.spotify:hover:before {
+    content: "Spotify";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1ed760;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.tiktok {
+    background-color: black;
+}
+
+.social-button.tiktok:hover:before {
+    content: "Tiktok";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.email {
+    background-color: lightblue;
+}
+
+.social-button.email:hover:before {
+    content: "Contact";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.youtube {
+    background-color: #ff0000;
+}
+
+.social-button.youtube:hover:before {
+    content: "Youtube";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+}
+
+.social-button.twitter:hover:before {
+    content: "Twitter";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.twitch {
+    background: linear-gradient(
+        135deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
+    );
+}
+
+.social-button.twitch:hover:before {
+    content: "Twitch";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+        135deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
+    );
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.instagram {
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+}
+
+.social-button.instagram:hover:before {
+    content: "Instagram";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.social-button.discord {
+    background: linear-gradient(#5865f2, #404eed);
+}
+
+.social-button.discord:hover:before {
+    content: "Discord";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(#5865f2, #404eed);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 5px;
+}
