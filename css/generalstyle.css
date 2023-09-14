@@ -33,11 +33,12 @@ body {
     align-items: center;
     margin: 0;
     height: 100%;
+    height: 800px;
 }
 
 main {
     width: 100%;
-    height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +73,10 @@ main {
 .centered{
     margin-left: auto;
     margin-right: auto;
+}
+
+.person-picture {
+    width: calc(100% * 3 / 12);
 }
 
 .big-font {
